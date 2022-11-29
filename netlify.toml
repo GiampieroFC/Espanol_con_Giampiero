@@ -1,26 +1,27 @@
 [build]
-publish = "Espanol_con_Giampiero/public"
+command = "hugo"
+publish = "public"
 
 [build.environment]
 HUGO_VERSION = "0.100.2"
-HUGO_THEME = "repo"
+# HUGO_THEME = "repo"
 
-[context.production]
-command = "cd Espanol_con_Giampiero && hugo --gc --themesDir ../.. -b ${URL}"
-[context.production.environment]
-HUGO_ENV = "production"
+# [context.production]
+# command = "cd Espanol_con_Giampiero && hugo --gc --themesDir ../.. -b ${URL}"
+# [context.production.environment]
+# HUGO_ENV = "production"
 
-[context.branch-deploy]
-command = "cd Espanol_con_Giampiero && hugo --gc --themesDir ../.. -b ${DEPLOY_PRIME_URL}"
+# [context.branch-deploy]
+# command = "cd Espanol_con_Giampiero && hugo --gc --themesDir ../.. -b ${DEPLOY_PRIME_URL}"
 
-[context.deploy-preview]
-command = "cd Espanol_con_Giampiero && hugo --gc --themesDir ../.. -b ${DEPLOY_PRIME_URL}"
+# [context.deploy-preview]
+# command = "cd Espanol_con_Giampiero && hugo --gc --themesDir ../.. -b ${DEPLOY_PRIME_URL}"
 
-[[plugins]]
-package = "netlify-plugin-hugo-cache-resources"
+# [[plugins]]
+# package = "netlify-plugin-hugo-cache-resources"
 
-[plugins.inputs]
-# If it should show more verbose logs (optional, default = true)
-debug = true
-# Relative path to source directory in case you use Hugo's "--s" option
-srcdir = "Espanol_con_Giampiero"
+# [plugins.inputs]
+# # If it should show more verbose logs (optional, default = true)
+# debug = true
+# # Relative path to source directory in case you use Hugo's "--s" option
+# srcdir = "Espanol_con_Giampiero"
