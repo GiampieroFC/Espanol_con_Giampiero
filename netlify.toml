@@ -4,7 +4,7 @@ publish = "public"
 
 [build.environment]
 HUGO_VERSION = "0.107.0"
-HUGO_THEME = "hugo-theme-stack"
+HUGO_THEME = "repo"
 
 [context.production]
 command = "cd exampleSite && hugo --gc --themesDir ../.. -b ${URL}"
