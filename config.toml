@@ -1,0 +1,73 @@
+baseURL = 'http://example.org/'
+languageCode = 'es-ES'
+title = 'Español con Giampiero'
+
+[module]
+[[module.imports]]
+path = "github.com/CaiJimmy/hugo-theme-stack/v3"
+
+[menu]
+
+[[menu.main]]
+name = "Главная"
+url = "/"
+weight = 1
+identifier = "home"
+[menu.main.params]
+icon = "home"
+newTab = false
+
+[[menu.main]]
+name = "Категории"
+url = "/categories"
+weight = 2
+identifier = "categories"
+[menu.main.params]
+icon = "categories"
+newTab = false
+
+[[menu.main]]
+name = "Запишись на урок! 🤓"
+url = "https://calendly.com/giampieroferminicastillo/clase-privada-1h/"
+weight = 3
+identifier = "date"
+[menu.main.params]
+icon = "date"
+newTab = true
+
+[[menu.main]]
+name = "В Italki 👅"
+url = "https://www.italki.com/ru/teacher/5632485/"
+weight = 4
+identifier = "language"
+[menu.main.params]
+icon = "language"
+newTab = true
+
+[[menu.main]]
+name = "Контакты 💬"
+url = "https://vk.com/fc_giampiero/"
+weight = 5
+identifier = "messages"
+[menu.main.params]
+icon = "messages"
+newTab = true
+
+
+# [[menu.main]]
+# name = "RSS"
+# url = "/rss"
+# weight = 5
+# identifier = "rss"
+# [menu.main.params]
+# icon = "rss"
+# newTab = true
+
+[Params.Sidebar]
+subtitle = "Я родился в Лиме, ​​вырос в Мадриде, а сейчас живу в Санкт-Петербурге.  Моя миссия состоит в том, чтобы помочь моим ученикам говорить по-испански."
+
+#  Каждый из них имеет свою личную историю и хочет выучить испанский язык по разным причинам. Некоторые для учебы, работы, приключений... или любви.\nНа этом сайте я предоставляю вам материалы, чтобы вы могли практиковаться и продолжать работать над достижением своей цели говорить по-испански.\nЕсли вы хотите записаться на прием ко мне, пожалуйста, перейдите по ссылкам ниже.\nНадеюсь скоро вас увидеть!!
+
+emoji = '👨🏽‍🏫'
+[Params.Sidebar.avatar]
+src = "img/foto2.jpg"
