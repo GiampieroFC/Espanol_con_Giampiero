@@ -1,9 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-description: "escribe la descripción"
+description : 'Текст с аудио для практики испанского языка'
 image: '../post/nachalnyi/me-gusta-leer/man-reading-book-and-drinking-coffee.jpg'
-comments: true
-draft: true
+keywords: [ , , ]
+categories: [ , ]
+draft: false
 ---
 

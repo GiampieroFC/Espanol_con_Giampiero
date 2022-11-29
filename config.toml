@@ -27,9 +27,18 @@ icon = "categories"
 newTab = false
 
 [[menu.main]]
+name = "Как проходят уроки 🎞"
+url = "/categories/уроки"
+weight = 3
+identifier = "user"
+[menu.main.params]
+icon = "user"
+newTab = false
+
+[[menu.main]]
 name = "Запишись на урок! 🤓"
 url = "https://calendly.com/giampieroferminicastillo/clase-privada-1h/"
-weight = 3
+weight = 4
 identifier = "date"
 [menu.main.params]
 icon = "date"
@@ -38,7 +47,7 @@ newTab = true
 [[menu.main]]
 name = "В Italki 👅"
 url = "https://www.italki.com/ru/teacher/5632485/"
-weight = 4
+weight = 5
 identifier = "language"
 [menu.main.params]
 icon = "language"
@@ -47,7 +56,7 @@ newTab = true
 [[menu.main]]
 name = "Контакты 💬"
 url = "https://vk.com/fc_giampiero/"
-weight = 5
+weight = 6
 identifier = "messages"
 [menu.main.params]
 icon = "messages"

@@ -1,5 +1,5 @@
 ---
-title: "Me Gusta Leer"
+title: "📖 Me Gusta Leer"
 date: 2022-11-29T16:55:41+03:00
 description : 'Текст с аудио для практики испанского языка'
 image: '../post/nachalnyi/me-gusta-leer/man-reading-book-and-drinking-coffee.jpg'
@@ -36,5 +36,6 @@ Por la noche, después de cenar, voy al salón a descansar. Me siento, abro un l
 
 ---
 
-
 #### Y a ti ¿Te gusta leer?
+ 
+Escríbeme tu respuesta [aquí](https://vk.com/fc_giampiero)
