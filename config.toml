@@ -63,6 +63,9 @@ newTab = true
 # icon = "rss"
 # newTab = true
 
+[Params]
+favicon = "images/favicon.ico"
+
 [Params.Sidebar]
 subtitle = "Я родился в Лиме, ​​вырос в Мадриде, а сейчас живу в Санкт-Петербурге.  Моя миссия состоит в том, чтобы помочь моим ученикам говорить по-испански."
 
