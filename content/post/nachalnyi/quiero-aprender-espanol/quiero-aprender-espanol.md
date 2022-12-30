@@ -1,5 +1,5 @@
 ---
-title: "🤓📚 Quiero Aprender Espanol"
+title: "🤓📚 Quiero Aprender Español"
 date: 2022-12-30T22:10:15+03:00
 description : 'Текст с аудио для практики испанского языка'
 image: '../post/nachalnyi/quiero-aprender-espanol/book-stack-2794002.jpg'
