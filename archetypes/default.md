@@ -5,6 +5,23 @@ description : 'Текст с аудио для практики испанско
 image: '../post/nachalnyi/me-gusta-leer/man-reading-book-and-drinking-coffee.jpg'
 keywords: [ , , ]
 categories: [ , ]
-draft: false
+draft: true
 ---
 
+{{<audio src = "../..">}}
+
+---
+
+...contenido
+
+---
+
+### Vocabulario
+|Español|Ruso|
+|-----:|:---|
+
+---
+
+#### Y a ti ¿?
+ 
+Escríbeme tu respuesta [aquí](https://vk.com/fc_giampiero)
