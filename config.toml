@@ -26,14 +26,14 @@ identifier = "categories"
 icon = "categories"
 newTab = false
 
-[[menu.main]]
-name = "Как проходят уроки 🎞"
-url = "/categories/уроки"
-weight = 3
-identifier = "user"
-[menu.main.params]
-icon = "user"
-newTab = false
+# [[menu.main]]
+# name = "Как проходят уроки 🎞"
+# url = "/categories/уроки"
+# weight = 3
+# identifier = "user"
+# [menu.main.params]
+# icon = "user"
+# newTab = false
 
 [[menu.main]]
 name = "Запишись на урок! 🤓"
